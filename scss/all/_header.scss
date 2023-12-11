@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+
+  // example
+  .nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 20px;
+
+   
+    &__logo {
+      font-style: 24px;
+      cursor: pointer;
+    }
+
+    &__list {
+      display: flex;
+      gap: 50px;
+      list-style-type: none;
+
+      &--item {
+        text-transform: uppercase;
+
+        &-link {
+          text-decoration: none;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  .navbar__short-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav__list--item-link {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .nav__list--two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .nav__list--item {
+    list-style: none;
+  }
+
+  .navbar__btn--moon {
+    display: inline-flex;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 100px;
+    background: #f5f5f5;
+    border: none;
+  }
+
+  .navbar__btn--login {
+    display: inline-flex;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: #299764;
+    border: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
